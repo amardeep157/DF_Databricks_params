@@ -13,11 +13,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [
-					{
-						"name": ""
-					}
-				],
+				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": "/Users/amardeepazure1_gmail.com#ext#@amardeepazure1gmail.onmicrosoft.com/Notebooks_amar/2_parameters_widgets",
 					"baseParameters": {
