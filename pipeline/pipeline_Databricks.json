@@ -1,6 +1,32 @@
 {
 	"name": "pipeline_Databricks",
 	"properties": {
+		"activities": [
+			{
+				"name": "Notebook_params",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [
+					{
+						"name": "param_pipeline"
+					}
+				],
+				"typeProperties": {
+					"notebookPath": "/Users/amardeepazure1_gmail.com#ext#@amardeepazure1gmail.onmicrosoft.com/Notebooks_amar/2_parameters_widgets"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_LinkedService",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
 		"annotations": []
 	}
 }
