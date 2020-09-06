@@ -15,11 +15,17 @@
 				},
 				"userProperties": [
 					{
-						"name": "param_pipeline"
+						"name": ""
 					}
 				],
 				"typeProperties": {
-					"notebookPath": "/Users/amardeepazure1_gmail.com#ext#@amardeepazure1gmail.onmicrosoft.com/Notebooks_amar/2_parameters_widgets"
+					"notebookPath": "/Users/amardeepazure1_gmail.com#ext#@amardeepazure1gmail.onmicrosoft.com/Notebooks_amar/2_parameters_widgets",
+					"baseParameters": {
+						"input_txt": {
+							"value": "@pipeline().parameters.param_pipeline",
+							"type": "Expression"
+						}
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks_LinkedService",
@@ -27,6 +33,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"param_pipeline": {
+				"type": "string",
+				"defaultValue": "1"
+			}
+		},
 		"annotations": []
 	}
 }
