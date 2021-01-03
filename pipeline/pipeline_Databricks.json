@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/amardeepazure1_gmail.com#ext#@amardeepazure1gmail.onmicrosoft.com/Notebooks_amar/2_parameters_widgets",
+					"notebookPath": "/Users/amardeepazure1_gmail.com#ext#@amardeepazure1gmail.onmicrosoft.com/Notebooks_amar/Nested_Notebooks/RunnerClass",
 					"baseParameters": {
 						"input_txt": {
 							"value": "@pipeline().parameters.param_pipeline",
